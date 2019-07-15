@@ -1,17 +1,11 @@
 <div class="table table-responsive-sm" style="padding: 30px;">
-    <table class="table">
-        <caption class="caption">$35 for each extra user / month. Prices are excluding taxes</caption>
-        <thead>
-          <tr>
-            <th class="no-top-border no-left-border" scope="col"></th>
-            <th class="table-text-align no-top-border" *ngFor="let field of tableContent;" 
-                scope="col"><span class="table-titles">₪{{field.price}}</span>
-            </th>
-          </tr>
-        </thead>
+    <table class="table" dir="rtl">
+        <caption class="caption" style="text-align: right">
+            עלות משתנה – 35 ש"ח לעובד לחודש. המחירים לפני מע"מ
+        </caption>
         <tbody>
           <tr *ngFor="let title of recordTitles; let i=index;">
-            <th scope="row">{{title}}</th>
+            <th scope="row" class="text-align-right">{{title}}</th>
             <td *ngFor="let record of tableContent" class="table-text-align">
                 <ng-template [ngIf]="i == 0">{{record.paymentPeriod}}</ng-template>
                 <ng-template [ngIf]="i == 1">{{record.commitmentPeriod}}</ng-template>
@@ -19,5 +13,13 @@
             </td>
           </tr>
         </tbody>
+        <thead>
+          <tr>
+            <th class="no-top-border no-right-border" scope="col"></th>
+            <th class="table-text-align no-top-border" *ngFor="let field of tableContent;" 
+                scope="col"><span class="table-titles">₪{{field.price}}</span>
+            </th>
+          </tr>
+        </thead>
       </table>
 </div>

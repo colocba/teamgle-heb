@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Suez One', serif;
     font-size: 60px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -8,7 +8,7 @@
 
 .subtitle {
     text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Suez One', serif;
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -19,9 +19,20 @@
     color: #1765a5;
 }
 
+.team-name-heb {
+    font-family: 'Suez One', serif;
+    color: #1765a5;
+}
+
 .team-name-blue-bg {
     font-family: 'Fredoka One', cursive;
     color: black;
+}
+
+.team-name-blue-bg-heb {
+    font-family: 'Suez One', serif;
+    color: black;
+    font-size: 25px;
 }
 
 .text-container {
@@ -49,4 +60,8 @@
   .under-nav-title {
     text-align: center;
     margin-top: 150px;
+}
+
+.float-right {
+    float: right;
 }

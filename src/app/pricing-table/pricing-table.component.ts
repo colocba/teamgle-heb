@@ -9,25 +9,25 @@ export class PricingTableComponent implements OnInit {
 
   constructor() { }
 
-  recordTitles = ["Payment period", "Commitment period", "Users"];
+  recordTitles = ["זוג תשלום", "תקופת התחייבות", "משתמשים"];
   tableContent = [
     {
       price: 870,
-      paymentPeriod: "Monthly",
-      commitmentPeriod: "1 Year",
+      paymentPeriod: "חודשי",
+      commitmentPeriod: "שנה אחת",
       users: 50
     },
     {
       price: 1300,
-      paymentPeriod: "Monthly",
-      commitmentPeriod: "1 Year",
+      paymentPeriod: "חודשי",
+      commitmentPeriod: "שנה אחת",
       users: 100
     },
     {
       price: 1800,
-      paymentPeriod: "Monthly",
-      commitmentPeriod: "1 Year",
-      users: "Unlimited"
+      paymentPeriod: "חודשי",
+      commitmentPeriod: "שנה אחת",
+      users: "ללא הגבלה"
     }
   ];
 

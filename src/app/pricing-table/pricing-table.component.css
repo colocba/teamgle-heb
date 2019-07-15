@@ -20,3 +20,10 @@ table.table thead tr th{
 .no-left-border {
     border-left: none !important;
 }
+.no-right-border {
+    border-right: none !important;
+}
+
+.text-align-right {
+    text-align: right;
+}

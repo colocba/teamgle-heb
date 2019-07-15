@@ -8,24 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class QandaAccordionComponent implements OnInit {
 
   qAndA = [{
-    question: "Do I need to install any software?",
-    answer: "Absolutely not! Teamgle is web based software where you just need to enter your assignated username and password deppending on your permissions access. Managers, Workers, Clients",
+    question: "?האם צריך להתקין תוכנה",
+    answer: ".ממש לא. הכניסה למערכת דרך האינטרנט באמצעות שם משתמש וסיסמא. כל אחד לפי ההרשאה שלו: מנהלים, עובדים, לקוחות",
     hrefId: "collapseOne"
   }, {
-    question: "How much it costs?",
-    answer: "The price will be set according to the amount of users on your team. For more information click here.",
+    question: "?כמה זה עולה",
+    answer: ".עלות השימוש במערכת נקבעת לפי היקף העובדים שלכם",
     hrefId: "collapseTwo"
   }, {
-    question: "How do I pay?",
-    answer: "Monthly pay with credit card.",
+    question: "?איך משלמים",
+    answer: ".באמצעות כרטיס אשראי, בחיוב חודשי",
     hrefId: "collapseThree"
   }, {
-    question: "Is there any support?",
-    answer: "Of course! Teamgle team is available for your on whatsapp, email and phone. We'll be more than happy to help you.",
+    question: "?יש תמיכה",
+    answer: ".כן. צוות טימגל זמין במענה במייל, בוואטסאפ ובטלפון. נשמח לסייע",
     hrefId: "collapseFour"
   }, {
-    question: "How do I start using Teamgle?",
-    answer: "When getting your system permission you will be able to start creating your organization background by setting work positions, workers and clients data, users permissions. Now go ahead and set for each of your employees user name and password and they will be able to receive relevant information on real time of all events and conferences running on the system. Also from the cellphone. ",
+    question: "?איך מתחילים לעבוד",
+    answer: "עם קבלת הרשאה למערכת, תבצעו התאמות ראשוניות – לפי התפקידים שיש לכם בארגון, הזנת פרטי עובדים, רשימת לקוחות, קביעת הרשאות. מכאן – אפשר לצאת לדרך. תנו לעובדים שלכם שם משתמש וסיסמא והזמינו אותם לקבל את כל המידע הנחוץ להם באמצעות המערכת – גם מהטלפון הנייד",
     hrefId: "collapseFive"
   }]
 

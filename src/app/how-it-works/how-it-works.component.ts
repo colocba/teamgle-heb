@@ -11,24 +11,24 @@ export class HowItWorksComponent implements OnInit {
 
   cards1 = [
     {url: "assets/cloud-syn-logo/cloud-syn-logo.png" ,
-     title: "All in the cloud. Real time sync for both managers and workers"},
+     title: "הכל במקום אחד. מערכת בענן, זמינה ועדכנית מכל מקום למנהלים ולעובדים"},
     {url: "assets/anounce-shifts-logo/anounce-shift-logo.png" ,
-     title: "Anounce all your events and open shifts on the system"},
+     title: "פרסמו את האירועים שלכם והמשמרות הפתוחות"},
     {url: "assets/choose-shifts-logo/choose-shifts-logo.png" ,
-     title: "Team workers will be able to dinamically choose shifts"},
+     title: "אפשרו לצוות לבחור משמרות. כל אחד לפי ההרשאה שלו"},
     {url: "assets/update-changes-logo/update-changes-logo.png" ,
-     title: "Last minute updates via SMS, email and push notifications"}
+     title: "עדכנו בשינויים של הרגע האחרון. הודעות מייל, הודעות טקסט והודעות פוש"}
   ]
 
   cards2 = [
     {url: "assets/monitor-scheddule-logo/monitor-scheddule-logo.png" ,
-     title: "Monitor all shifts scheddule witin your team"},
+     title: "אפשרו לצוות לצפות בסידור עבודה ובתלוש שכר"},
     {url: "assets/logistics-mgmnt-logo/logistics-mgmnt-logo.png" ,
-     title: "Manage all the logistics for your event"},
+     title: "נהלו ציוד ולוגיסטיקה"},
     {url: "assets/data-payment-system-logo/data-payment-system-logo.png" ,
-     title: "Update and add payment data on the payment system"},
+     title: "יצאו נתונים למערכת השכר"},
     {url: "assets/worker-history-logo/worker-history-logo.png" ,
-     title: "Save all the working history of each worker"}
+     title: "שמירת היסטוריה וניסיון של עובדים"}
   ]
 
   ngOnInit() {
