@@ -8,6 +8,7 @@
   }
 
 .footer-cont {
+    direction: ltr !important;
     margin: 30px;
 }
 .icons {
