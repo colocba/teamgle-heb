@@ -5,10 +5,10 @@
 
 .navbar {
   direction: ltr !important;
-  background-image: linear-gradient(to right, white, #1765a5);
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar.downsized {
+  height: 90px !important;
 }
   
   .navbar a {
@@ -16,6 +16,18 @@
     font-size: 18px;
     cursor: pointer;
     text-shadow: 1px 0px 3px #000000;
+  }
+
+  .bg-blue {
+    background-color: transparent !important;
+    transition: 600ms ease;
+  }
+
+  .bg-blue.scrolled {
+    background-image: linear-gradient(to right, white, #1765a5);
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: rgba(43,54,74,.5) 3px 3px 6px 0px;
   }
   
   .cov-img {
@@ -25,11 +37,23 @@
     height: 130px;
     width: 200px;
     background-position: center;
+    transition: 600ms ease;
+  }
+
+  .cov-img.scrolled1 {
+    height: 80px;
+    width: 150px;
   }
   
   @media (max-width : 400px) {
     /* .fixed-top { position: -webkit-sticky; position: sticky;} */
     .cov-img {height: 80px;}
+    .bg-blue {
+      background-image: linear-gradient(to right, white, #1765a5);
+      -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: rgba(43,54,74,.5) 3px 3px 6px 0px;
+    }
   }
   
   @media screen and (orientation:landscape) {
